@@ -1,0 +1,17 @@
+.carousel-control-next-icon{
+    display: none;
+    position: absolute;
+}
+.carousel-control-prev-icon{
+    display: none;
+    position: absolute;
+}
+
+.carousel{
+    margin-top: 5%;
+    background-color: #ef4d60;
+}
+
+.carousel img{
+    margin-left: 15%;
+}

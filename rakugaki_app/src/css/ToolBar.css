@@ -1,0 +1,20 @@
+.Tools{
+    width: 80vh;
+    max-width: 80%;
+    height: 12vh;
+    padding: 0.5%;
+    border-radius: 10px;
+    background-color: #7769cd;
+    position: fixed;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    display: flex;
+}
+.Tools button{
+    width: 10vh;
+    height: 10vh;
+    font-size: 5vh;
+    margin: 0  4% 0% 4%;
+}

@@ -1,13 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
-
-.logo{
-  height: 100px;
-  margin: auto;
-  filter: invert(1);
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
+body{ width:100%; overflow-x: hidden; background-color: #ebe7e2 !important;}
 
 /* ================Banner================ */
 
@@ -18,7 +12,7 @@
 }
 
 #slideshow{
-  z-index: 10000;
+  z-index: 100000;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -98,11 +92,9 @@
   .div6 { grid-area: 3 / 2 / 4 / 3; }
 
 
-
-
 #button_login{
   position: absolute;
-  top: 90vh;
+  top: 95vh;
   left: 45%;
   color: white;
   transition: 0.5s;
@@ -110,33 +102,14 @@
 
 #button_signin{
   position: absolute;
-  top: 90vh;
+  top: 95vh;
   right: 45%;
   color: white;
   transition: 0.5s;
 }
 
-button:hover{
+#buttons :hover{
   transform: scale(1.2);
-}
-
-#line {
-  rotate: 90deg;
-  width: 80%;
-  position: absolute;
-  left: 10%;
-  top: 200vh;
-}
-
-#footer{
-  bottom: 0%;
-  width: 100%;
-  height: 25vh;
-  margin-bottom: -50%;
-}
-
-#footer h1{
-  margin: 5px;
 }
 
 link{
@@ -149,9 +122,19 @@ link{
   text-decoration: none;
 }
 
-#footer_links{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 3vh;
+#title_outside{
+  margin-top: 1%;
+}
+
+#title_outside h1{
+  font-family: 'Rampart One', cursive;
+  font-weight: 600;
+  font-size: 8vh;
+  color: #594e9a;
+}
+
+#title_outside p{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 3vh;
+  color: #594e9a;
 }

@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    margin-top: 105vh;
+    color: white;
+}
+
+#footer{
+    z-index: -1;
+    position: absolute;
+    top: 110vh;
+    height: 30vh;
+    margin-left: -5%;
+    width: 110%;
+    rotate: 1deg;
+    background-color: #7769cd;
+    background-image: 
+    radial-gradient(#594e9a 7%, transparent 7%),
+    radial-gradient(#594e9a 7%, transparent 7%);
+    background-position: 0px 0px, 15px 15px;
+    background-size: 32px 32px;
+    background-color: #7769cd;
+  }
